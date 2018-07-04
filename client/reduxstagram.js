@@ -9,6 +9,23 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store, { history } from './store';
 
+import Raven from 'raven-js';
+import { sentry_url, logException } from './data/config';
+
+//Raven.config(sentry_url, {
+//	tags: {
+//		git_commit: 'asfgasgasgsag',
+//		userLevel: 'editor'
+//	}
+//}).install();
+
+//logException(new Error('download failed'), {
+//	email: 'test@test/com'
+//});
+
+//Raven.captureMessage('something');
+//Raven.showReportDialog();
+
 const router = (
 	<Provider store={store}>
 	  <Router history={history}>
@@ -18,6 +35,6 @@ const router = (
 	    </Route>
 	  </Router>
   </Provider>
-)
+);
 
 render(router, document.getElementById('root'));
