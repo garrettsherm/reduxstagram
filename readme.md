@@ -2,7 +2,11 @@
 
 Course website can be found here https://learnredux.com/, Wes' code for the course can be found https://github.com/wesbos/Learn-Redux-Starter-Files.
 
-# Learn Redux
+## My-Demo
+
+Can see it deployed to heroku here https://reduxstagram-garrettsherm.herokuapp.com
+
+## Learn Redux
 
 A simple React + Redux implementation.
 
@@ -10,11 +14,11 @@ A simple React + Redux implementation.
 
 First `npm install` to grab all the necessary dependencies. 
 
-Then run `npm start` and open <localhost:7770> in your browser.
+Then run `npm run dev` and open <localhost:7770> in your browser.
 
 ## Production Build
 
-Run `npm build` to create a distro folder and a bundle.js file.
+Production build for heroku can be found in /build. Serve is used to deploy build folder. 
 
 ## Disclaimer
 
