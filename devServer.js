@@ -1,3 +1,4 @@
+// Simple express dev server
 var path = require('path');
 var express = require('express');
 var webpack = require('webpack');

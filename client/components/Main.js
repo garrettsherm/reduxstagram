@@ -1,6 +1,9 @@
+// Node Modules
 import React from 'react';
 import { Link } from 'react-router';
 
+// Main component for Application
+// React.cloneElement is used to pass props to children components in reduxstagram.js Route
 const Main = React.createClass({
   render() {
     return (

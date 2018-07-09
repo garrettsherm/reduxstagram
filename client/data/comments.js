@@ -1,3 +1,4 @@
+// Defaults comments provided by Wes Bos
 const comments = {
   "BAhvZrRwcfu":[
     {

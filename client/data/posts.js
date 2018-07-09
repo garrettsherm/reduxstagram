@@ -1,3 +1,4 @@
+// Default posts provided by Wes Bos
 const posts = [
   {
     "code": "BAcyDyQwcXX",

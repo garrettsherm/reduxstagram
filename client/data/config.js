@@ -1,3 +1,4 @@
+// Raven/Sentry config for logging errors
 import Raven from 'raven-js';
 
 const sentry_key = 'cb55d4f05cd443ce82303222f77ef5e0';

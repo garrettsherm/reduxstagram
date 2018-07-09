@@ -1,7 +1,10 @@
+// Node Modules
 import React from 'react';
 import { Link } from 'react-router';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 
+
+// Component to render the photos w/ caption for each post
 const Photo = React.createClass({
 	render(){
 

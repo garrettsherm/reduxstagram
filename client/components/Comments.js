@@ -1,8 +1,10 @@
+// Node Modules
 import React from 'react';
 
-
+// Component to list comments & add/remove comments
 const Comments = React.createClass({
 
+	// Function to render individual comment
 	renderComment(comment, i){
 		return(
 			<div className="comment" key={i}>
@@ -15,6 +17,8 @@ const Comments = React.createClass({
 		)
 	},
 
+	// Function to handle submission of new comment
+	// calls addComment action
 	handleSubmit(e){
 		e.preventDefault();
 		const { postId } = this.props.params;

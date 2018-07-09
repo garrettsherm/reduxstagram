@@ -1,6 +1,11 @@
+// Node Modules
 import React from 'react';
+
+// Components
 import Photo from './Photo'
 
+
+// Component to list all posts
 const PhotoGrid = React.createClass({
   render() {
     return (
